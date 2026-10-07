@@ -1,0 +1,1 @@
+ALTER TABLE `missionSheets` ADD `partnerConsentStatus` enum('non_requis','attendu','recu') DEFAULT 'attendu' NOT NULL;
